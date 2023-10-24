@@ -2,25 +2,28 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white absolute bottom-0 w-full">
-      <div className="flex flex-wrap justify-center items-end h-24 pb-40 pt-10">
-        <div className="social-media m-10">
-          <a href="https://web.facebook.com/" className="text-white">
-            Facebook
-          </a>
-          <a href="https://www.instagram.com/" className="text-white">
-            Instagram
-          </a>
-          <a href="https://www.linkedin.com/in/malath-yasin-611882263/" className="text-white">
-            LinkedIn
-          </a>
-        </div>
-        <div className="contact-info m-10">
-          <div>email: cities@gmail.com</div>
-          <div>phone: +9624566545</div>
-        </div>
-      </div>
-    </footer>
+    
+
+    
+<footer class=" footer bg-black   dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
   );
 };
 
